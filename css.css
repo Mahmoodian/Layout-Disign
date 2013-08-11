@@ -1,0 +1,66 @@
+.box {
+	background-image:url(backguid.jpg);
+	background-repeat:no-repeat;	
+	height:1185px;
+}
+
+header ,
+.main ,
+footer {
+	outline: 2px solid red;
+	padding: 2px;	
+}
+
+.box section {
+	outline:1px dashed #FF9900;
+}
+
+.box section div {
+	outline:1px dashed #0000FF;
+}
+
+/* Header */
+.box .menu {
+	min-height:50px;	
+	margin:1px auto 1px 415px;
+}
+
+.box .slider {
+	min-height:280px;	
+}
+
+.box .logo {
+	min-height:45px;
+	min-width:80px;
+	margin:1px auto 1px 160px;	
+}
+
+.box .menu div {
+	float:left;
+	min-height:45px;	
+	min-width: 60px;
+	margin:1px auto;
+}
+
+/* Main */
+.f1 {
+	min-height:120px;
+}
+
+.f2 {
+	min-height:180px;	
+}
+
+.f3 {
+	min-height:285px;
+}
+
+/* Footer */
+
+.footer {
+	min-height: 220px;	
+}
+
+.copytext {
+	min-height: 35px;	
+}
